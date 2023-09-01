@@ -1,0 +1,42 @@
+<svg width="36" height="24" viewBox="0 0 36 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="36" height="24" fill="#F5F5F5"/>
+<g id="mobile_360" clip-path="url(#clip0_11_87)">
+<rect width="360" height="7848" transform="translate(-304 -24)" fill="white"/>
+<g id="1 &#209;&#141;&#208;&#186;&#209;&#128;&#208;&#176;&#208;&#189;" clip-path="url(#clip1_11_87)">
+<rect width="360" height="650" transform="translate(-304 -24)" fill="#21093A"/>
+<g id="Ellipse 5" opacity="0.5" filter="url(#filter0_f_11_87)">
+<circle cx="-261" cy="56" r="196" fill="#E1016E"/>
+</g>
+<g id="Ellipse 2" opacity="0.5" filter="url(#filter1_f_11_87)">
+<circle cx="-49" cy="401" r="200" fill="#8900C9"/>
+</g>
+<g id="0.header">
+<g id="burger">
+<g id="burger_menu">
+<path id="Vector 1" d="M2 2H34" stroke="#E1016E" stroke-width="3" stroke-linecap="round"/>
+<path id="Vector 2" d="M2 12H34" stroke="#E1016E" stroke-width="3" stroke-linecap="round"/>
+<path id="Vector 3" d="M2 22H34" stroke="#E1016E" stroke-width="3" stroke-linecap="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_11_87" x="-757" y="-440" width="992" height="992" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="150" result="effect1_foregroundBlur_11_87"/>
+</filter>
+<filter id="filter1_f_11_87" x="-549" y="-99" width="1000" height="1000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="150" result="effect1_foregroundBlur_11_87"/>
+</filter>
+<clipPath id="clip0_11_87">
+<rect width="360" height="7848" fill="white" transform="translate(-304 -24)"/>
+</clipPath>
+<clipPath id="clip1_11_87">
+<rect width="360" height="650" fill="white" transform="translate(-304 -24)"/>
+</clipPath>
+</defs>
+</svg>
