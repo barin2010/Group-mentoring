@@ -446,6 +446,7 @@ table {
     background: var(--white, #fff);
     padding-bottom: 12px;
   }
+   
 
   .accordeon-subtitle {
     color: var(--dark, #21093a);
@@ -458,6 +459,9 @@ table {
   .accordion-text {
     display: none;
   }
+    .accordion-text.open {
+      display: block;
+    }
 
   .accordeon-subtitle-two {
     color: var(--dark, #21093a);
@@ -530,6 +534,9 @@ table {
     gap: 4px;
     cursor: pointer;
   }
+    .accordeon-collapse.open svg{
+      transform: rotate(180deg);
+    }
 
   .accordeon-collapse-text
    {
