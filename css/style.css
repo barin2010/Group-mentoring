@@ -654,6 +654,7 @@ table {
   }
   /* =====rates========== */
   .rates {
+    margin: o auto;
   }
 
   .rates-wrap {
@@ -686,7 +687,7 @@ table {
     border-radius: 8px;
     border: 1px solid var(--light_border, #f2f2f2);
     background: var(--white, #fff);
-    width: 280px;
+    width: 290px;
     height: auto;
     padding: 20px 16px 28px 16px;
   }
