@@ -562,7 +562,7 @@ table {
   .application-wrapper {
     border-radius: 12px;
     background: var(--dark, #21093a);
-    width: 328px;
+    width: 320px;
     padding: 22px 22px 31px 22px;
   }
 
