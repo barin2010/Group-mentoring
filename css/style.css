@@ -125,6 +125,9 @@ table {
   }
   .mentor {
     padding-bottom: 28px;
+    background-image: url(/img/Igor_1_mob.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
   }
   .mentor-box {
     display: flex;
@@ -661,8 +664,6 @@ table {
     background: #fcf9ff;
     padding: 20px 16px 28px 16px;
     margin: 0 auto;
-    
-    
   }
 
   .rates-title {
@@ -680,7 +681,7 @@ table {
     display: flex;
     gap: 12px;
     overflow: hidden;
-      overflow: auto;
+    overflow: auto;
   }
 
   .rates-box-one {
@@ -688,11 +689,10 @@ table {
     border: 1px solid var(--light_border, #f2f2f2);
     background: var(--white, #fff);
     width: 290px;
-    height: 100%;
+    height: auto;
     padding: 20px 16px 28px 16px;
     display: flex;
     flex-direction: column;
-    
   }
   .dark {
     border-radius: 8px;
@@ -818,14 +818,13 @@ table {
   .rates-btn {
     width: 175px;
     padding: 16px 20px;
-
+    margin-top: auto;
     flex-shrink: 0;
     border-radius: 8px;
     border: 1px solid var(--light_border, #f2f2f2);
     background: var(--white, #fff);
     border-radius: 10px;
     border: 1px solid var(--gradient2, #e5006d);
-   
   }
 
   .rates-btn-text {
@@ -834,5 +833,61 @@ table {
     font-size: 16px;
     font-weight: 500;
     line-height: normal;
+  }
+  /* ======seller===== */
+  .seller {
+    padding: 40px 20px 0 20px;
+  }
+
+  .seller-box {
+    position: relative;
+  }
+
+  .seller-title {
+    color: var(--dark, #21093a);
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+
+  .seller-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .seller-item {
+    display: flex;
+    gap: 8px;
+  }
+
+  .square {
+  }
+
+  .seller-text {
+    color: var(--dark, #21093a);
+    font-family: var(--primari-font);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.3;
+  }
+  .seller-box-image {
+    overflow: hidden;
+    height: 315px;
+  }
+
+  .seller-box-image svg {
+    position: absolute;
+    top: 150px;
+    transform: translateX(-10%);
+    z-index: -3;
+  }
+
+  .seller-image {
+    margin-top: 50px;
+    z-index: 10;
   }
 }
