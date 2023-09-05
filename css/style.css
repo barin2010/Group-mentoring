@@ -660,8 +660,7 @@ table {
     background: #fcf9ff;
     padding: 20px 16px 28px 16px;
     margin: 0 auto;
-    overflow: hidden;
-    overflow: auto;
+    
     
   }
 
@@ -679,6 +678,8 @@ table {
   .rates-box {
     display: flex;
     gap: 12px;
+    overflow: hidden;
+      overflow: auto;
   }
 
   .rates-box-one {
