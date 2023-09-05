@@ -130,7 +130,7 @@ table {
   }
   .mentor {
     padding-bottom: 28px;
-    background-image: url(/img/Igor_1_mob.png);
+    background-image: url(./img/Igor_1_mob.png);
     background-position: right bottom;
     background-repeat: no-repeat;
   }
@@ -889,7 +889,7 @@ table {
   }
   .seller-box-image {
     overflow: hidden;
-    height: 315px;
+    height: 330px;
   }
 
   .seller-box-image svg {
