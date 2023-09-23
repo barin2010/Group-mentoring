@@ -1500,10 +1500,75 @@
             </li>
           </ul>
         </div>
+        <div class="answers-application">
+          <div class="answers-application-wrapper">
+            <h2 class="application-title">Заявка на диагностику</h2>
+            <p class="application-text">
+              На диагностике мы обсудим вашу ситуацию и бизнес и вы поймете,
+              подходит ли вам это наставничество и сколько это стоит
+            </p>
+          </div>
+          <div class="application-form">
+            <lable class="application-lable" for="Name"></lable>
+            <div class="application-input-box">
+              <input
+                class="application-input"
+                name="Name"
+                type="text"
+                placeholder="Имя"
+              />
+            </div>
+            <lable class="application-lable" for="tel"></lable>
+            <div class="application-input-box">
+              <input
+                class="application-input"
+                name="tel"
+                type="number"
+                placeholder="Телефон"
+              />
+            </div>
+            <div class="dropdown">
+              <label class="dropdown-label" onclick="toggleDropdown()"
+                >Удобный способ связи</label
+              >
+              <input
+                class="dropdown-checkbox"
+                type="checkbox"
+                placeholder="Удобный способ связи"
+              />
+              <div class="dropdown-content">
+                <a href="#">Viber</a>
+                <a href="#">Telegram</a>
+              </div>
+            </div>
+
+            <label class="application-lable" for="name"></label>
+            <div class="application-input-box">
+              <input
+                class="application-input"
+                name="connection"
+                type="text"
+                placeholder="Ваш магазин на WB"
+              />
+            </div>
+            <p class="application-name">
+              Укажите ИП, название или ссылку (если нет — оставьте поле пустым)
+            </p>
+            <div class="application-btn">
+              <p class="application-btn-text">Оставить заявку на диагностику</p>
+            </div>
+            <p class="application-confidentiality">
+              Нажимая на кнопку, вы соглашаетесь с <span
+                >политикой конфиденциальности</span
+              >
+              и даете согласие на обработку персональных данных.
+            </p>
+          </div>
+        </div>
       </section>
       <script src="./js/accordeon.js"></script>
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-      <!-- <script src="./js/answer.js"></script> -->
+
+      <script src="./js/answer.js"></script>
     </main>
   </body>
 </html>

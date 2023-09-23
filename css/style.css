@@ -942,7 +942,7 @@ table {
   }
   /* ======answers======== */
   .answers {
-    padding-top:  40px;
+    padding-top: 40px;
   }
 
   .answers-box {
@@ -977,15 +977,12 @@ table {
     display: flex;
     flex-direction: column;
     width: 100%;
-    
   }
-  .answers-floor{
+  .answers-floor {
     display: flex;
     justify-content: space-between;
-   
-
   }
-  
+
   .answers-subtitle {
     color: var(--dark, #21093a);
     font-family: var(--secondary-font);
@@ -994,16 +991,12 @@ table {
     line-height: 1.3;
     margin-bottom: 25px;
     display: inline-flex;
-   
   }
-  .answers-toggle{
+  .answers-toggle {
     display: flex;
-    
-    
-    }
-        .answers-toggle svg{
-          
-        }
+  }
+  .answers-toggle svg {
+  }
   /* .answers-toggle:hover.answers-text{
     display: block;
   } */
@@ -1011,11 +1004,11 @@ table {
   .answers-svg {
     flex-shrink: 0;
     margin: auto 0;
-   margin-left: auto;
+    margin-left: auto;
   }
- .answers-content {
-   display: none;
- }
+  .answers-content {
+    display: none;
+  }
 
   .answers-text {
     color: var(--dark, #21093a);
@@ -1023,6 +1016,153 @@ table {
     font-size: 14px;
     font-weight: 400;
     line-height: 1.3;
-    
+  }
+  .answers-application {
+    border-radius: 12px;
+    background: var(--dark, #21093a);
+    width: 320px;
+    padding: 30px 20px;
+  }
+
+  .answers-application-wrapper {
+    width: 265px;
+  }
+  .application-title {
+    color: var(--white, #fff);
+    text-align: center;
+    font-family: Dela Gothic One;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  .application-text {
+    color: var(--white, #fff);
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.3;
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+  }
+  .application-form {
+  }
+  .application-lable {
+  }
+  .application-input-box {
+  }
+  .application-input {
+    background: inherit;
+    border: none;
+    border-bottom: 1px solid var(--pink, #e1016e);
+    color: var(--light-purple, #f4f2fd);
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.3;
+    opacity: 0.8;
+    width: 100%;
+    padding: 12px 0;
+    margin-bottom: 16px;
+  }
+
+  .dropdown {
+    display: inline-block;
+    position: relative;
+    border-bottom: 1px solid var(--pink, #e1016e);
+    padding: 12px 0;
+    margin-bottom: 16px;
+  }
+  .dropdown-label {
+    padding: 12px 16px;
+    cursor: pointer;
+    color: var(--light-purple, #f4f2fd);
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.3;
+    opacity: 0.8;
+  }
+  .dropdown-checkbox {
+    color: var(--light-purple, #f4f2fd);
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.3;
+    opacity: 0.8;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  .dropdown.active .dropdown-content {
+    display: block;
+}
+  .dropdown-item {
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            color: #333;
+        }
+        .dropdown-item:hover {
+          background-color: #ddd;
+      }
+  .application-name {
+    color: var(--white, #fff);
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.3;
+    opacity: 0.6;
+    margin-bottom: 28px;
+  }
+  .application-btn {
+    border-radius: 8px;
+    background: var(
+      --gradient,
+      linear-gradient(
+        78deg,
+        #e5006d 6.38%,
+        #c90171 21.48%,
+        #961975 48.48%,
+        #6f1f78 70.91%,
+        #56207a 87.63%,
+        #4c217a 96.76%
+      )
+    );
+    display: flex;
+    width: 280px;
+    padding: 20px 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  .application-btn-text {
+    color: var(--white, #fff);
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .application-confidentiality {
+    color: var(--white, #fff);
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.3;
+    opacity: 0.6;
+    width: 250px;
+    margin: 0 auto;
+  }
+  .application-confidentiality span {
+    text-decoration: underline;
   }
 }
