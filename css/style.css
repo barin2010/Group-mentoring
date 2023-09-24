@@ -661,6 +661,9 @@ table {
   .application-agreement span {
     text-decoration-line: underline;
   }
+  .application-agreement span:hover,.application-agreement span:focus{
+    color: #E1016E;
+  }
   /* =====rates========== */
   .rates {
     margin: o auto;
@@ -995,16 +998,20 @@ table {
   .answers-toggle {
     display: flex;
   }
-  .answers-toggle svg {
+  .answers-svg:hover,.answers-svg:focus {
+    background-color: #E1016E;
+    border-radius: 50%;
+   
   }
-  /* .answers-toggle:hover.answers-text{
-    display: block;
-  } */
+  
+  
 
   .answers-svg {
     flex-shrink: 0;
     margin: auto 0;
     margin-left: auto;
+   
+
   }
   .answers-content {
     display: none;
@@ -1178,10 +1185,10 @@ table {
     width: 250px;
     margin: 0 auto;
   }
-  .application-confidentiality span {
+  .applecation-confidentiality span {
     text-decoration: underline;
   }
-  .application-confidentiality span:hover,.application-confidentiality span:focus{
+  .applecation-confidentiality span:hover,.applecation-confidentiality span:focus{
     color: var(--pink, #E1016E);
   }
   /* ======contact======== */
@@ -1196,6 +1203,7 @@ table {
     padding-top: 30px;
     padding-bottom: 50px;
     padding-left: 20px;
+
     
   }
   .contact-name {
