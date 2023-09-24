@@ -1528,17 +1528,12 @@
               />
             </div>
             <div class="dropdown">
-              <label class="dropdown-label" onclick="toggleDropdown()"
-                >Удобный способ связи</label
-              >
-              <input
-                class="dropdown-checkbox"
-                type="checkbox"
-                placeholder="Удобный способ связи"
-              />
-              <div class="dropdown-content">
-                <a href="#">Viber</a>
-                <a href="#">Telegram</a>
+              <button onclick="myFunction()" class="dropbtn" >
+                Удобный способ связи
+              </button>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="#home">Viber</a>
+                <a href="#about">Telegram</a>
               </div>
             </div>
 
@@ -1554,10 +1549,10 @@
             <p class="application-name">
               Укажите ИП, название или ссылку (если нет — оставьте поле пустым)
             </p>
-            <div class="application-btn">
-              <p class="application-btn-text">Оставить заявку на диагностику</p>
+            <div class="applecation-btn">
+              <p class="applecation-btn-text">Оставить заявку на диагностику</p>
             </div>
-            <p class="application-confidentiality">
+            <p class="applecation-confidentiality">
               Нажимая на кнопку, вы соглашаетесь с <span
                 >политикой конфиденциальности</span
               >
@@ -1566,8 +1561,28 @@
           </div>
         </div>
       </section>
-      <script src="./js/accordeon.js"></script>
+      <!-- ========contact======== -->
+      <section class="contact">
+        <div class="contact-wrapper">
+          <div class="contact-name">
+          <h3 class="contact-title">Сергей Поталинский</h3>
+          <p class="contact-text">наставник по маркетплейсам</p>
+          </div>
+          <div class="contact-requisites">
+            <h3  class="contact-title">Реквизиты</h3>
+            <p class="contact-inn">ИП Поталинский С.Н.</p>
+            <p class="contact-inn">ИНН 780632121730</p>
+            <p class="contact-inn">ОГРН 321784700015882</p>
+          </div>
+          <div class="contact-off">
+            <p class="contact-text">Публичная оферта</p>
+            <p class="contact-text">Политика конфиденциальности</p>
+          </div>
 
+        </div>
+      </section>
+      <script src="./js/accordeon.js"></script>
+      <script src="./js/dropdown.js"></script>
       <script src="./js/answer.js"></script>
     </main>
   </body>
