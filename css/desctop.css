@@ -1,0 +1,17 @@
+@import url('style.css');
+@media (min-width: 769px) and (max-width: 1920px) {
+  .container {
+    max-width: 1210px;
+    margin: 0 auto;
+  }
+  .header-background {
+    background: var(--dark, #21093a);
+    margin: 0 auto;
+  }
+  .header {
+    display: flex;
+  }
+  .header-mobil {
+    display: none;
+  }
+}

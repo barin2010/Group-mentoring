@@ -1,10 +1,11 @@
-@import url(./fonts);
+@import url('desctop.css');
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
 
 :root {
   --primari-font: "Gilroy", sans-serif;
   --secondary-font: "Dela Gothic One", sans-serif;
   --primary-color-font: #fff;
+  --white: #fff
   --dark-purple: #4c217a;
 }
 
@@ -101,7 +102,7 @@ table {
   }
   .header-background {
     background: var(--dark, #21093a);
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
   .header {
     display: none;
@@ -205,12 +206,12 @@ table {
   }
   .mentor-btn {
     color: var(--primary-color-font);
-    font-family: Gilroy;
+    font-family: var(--primari-font);
     font-size: 16px;
     font-weight: 500;
     line-height: normal;
     display: flex;
-    width: 319px;
+    width:100%;
     padding: 20px 30px;
     justify-content: center;
     align-items: center;
@@ -227,7 +228,7 @@ table {
   }
   /* =========newcomers============ */
   .newcomers {
-    background: var(--white, #fff);
+    background: var(--white);
     padding-top: 50px;
     padding-bottom: 50px;
   }
@@ -262,7 +263,7 @@ table {
     gap: 16px;
     border-radius: 8px;
     border: 1px solid var(--light-purple, #f4f2fd);
-    background: var(--white, #fff);
+    background: var(--white);
     box-shadow: 2px 5px 15px 0px rgba(48, 3, 53, 0.1);
   }
 
@@ -420,7 +421,7 @@ table {
     flex-direction: column;
     border-radius: 8px;
     border: 1px solid var(--light_border, #f2f2f2);
-    background: var(--white, #fff);
+    background: var(--white);
     box-shadow: 2px 5px 15px 0px rgba(48, 3, 53, 0.1);
   }
   .accordion-item:not(:last-child) {
@@ -453,7 +454,7 @@ table {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid var(--light_border, #f2f2f2);
-    background: var(--white, #fff);
+    background: var(--white, );
     padding-bottom: 12px;
   }
 
@@ -638,6 +639,7 @@ table {
     margin-bottom: 12px;
   }
   .application-btn {
+    cursor: pointer;
     color: var(--primary-color-font);
     font-family: var(--primari-font);
     font-size: 16px;
@@ -660,6 +662,7 @@ table {
   }
   .application-agreement span {
     text-decoration-line: underline;
+    cursor: pointer;
   }
   .application-agreement span:hover,.application-agreement span:focus{
     color: #E1016E;
@@ -676,7 +679,7 @@ table {
   }
 
   .rates-title {
-    color: var(--dark-purple, #4c217a);
+    color: var(--dark-purple);
 
     font-family: var(--secondary-font);
     font-size: 20px;
@@ -696,7 +699,7 @@ table {
   .rates-box-one {
     border-radius: 8px;
     border: 1px solid var(--light_border, #f2f2f2);
-    background: var(--white, #fff);
+    background: var(--white,);
     width: 290px;
     height: auto;
     padding: 20px 16px 28px 16px;
@@ -709,7 +712,7 @@ table {
   }
 
   .rates-category {
-    color: var(--dark-purple, #4c217a);
+    color: var(--dark-purple);
     text-align: center;
     font-family: var(--secondary-font);
     font-size: 18px;
@@ -718,13 +721,13 @@ table {
     margin-bottom: 10px;
   }
   .white {
-    color: var(--white, #fff);
+    color: var(--white,);
   }
 
   .rates-week {
     padding: 5px 15px;
     border-radius: 20px;
-    background: var(--dark-purple, #4c217a);
+    background: var(--dark-purple);
     width: 82px;
     align-items: center;
     display: flex;
@@ -733,7 +736,7 @@ table {
     margin-bottom: 12px;
   }
   .rates-week-white {
-    background: var(--white, #fff);
+    background: var(--white);
   }
 
   .rates-week-text {
@@ -757,7 +760,7 @@ table {
     margin-bottom: 8px;
   }
   .white {
-    color: var(--white, #fff);
+    color: var(--white,);
   }
 
   .rates-item-list {
@@ -821,17 +824,18 @@ table {
     line-height: 1.3;
   }
   .white {
-    color: var(--white, #fff);
+    color: var(--white);
   }
 
   .rates-btn {
+    cursor: pointer;
     width: 175px;
     padding: 16px 20px;
     margin-top: auto;
     flex-shrink: 0;
     border-radius: 8px;
     border: 1px solid var(--light_border, #f2f2f2);
-    background: var(--white, #fff);
+    background: var(--white);
     border-radius: 10px;
     border: 1px solid var(--gradient2, #e5006d);
   }
@@ -998,12 +1002,12 @@ table {
   .answers-toggle {
     display: flex;
   }
-  .answers-svg:hover,.answers-svg:focus {
+  /* .answers-svg:hover,.answers-svg:focus {
     background-color: #E1016E;
     border-radius: 50%;
    
   }
-  
+   */
   
 
   .answers-svg {
@@ -1036,18 +1040,18 @@ table {
     width: 265px;
   }
   .application-title {
-    color: var(--white, #fff);
+    color: var(--white);
     text-align: center;
-    font-family: Dela Gothic One;
+    font-family: var(--secondary-font);
     font-size: 20px;
     font-weight: 400;
     text-transform: uppercase;
     margin-bottom: 16px;
   }
   .application-text {
-    color: var(--white, #fff);
+    color: var(--white);
     text-align: center;
-    font-family: Gilroy;
+    font-family: var(--primari-font);
     font-size: 14px;
     font-weight: 400;
     line-height: 1.3;
@@ -1067,7 +1071,7 @@ table {
     border: none;
     border-bottom: 1px solid var(--pink, #e1016e);
     color: var(--light-purple, #f4f2fd);
-    font-family: Gilroy;
+    font-family: var(--primari-font);
     font-size: 14px;
     font-weight: 400;
     line-height: 1.3;
@@ -1080,7 +1084,7 @@ table {
 
   .dropbtn {
     color: var(--light-purple, #f4f2fd);
-    font-family: Gilroy;
+    font-family: var(--primari-font);
     font-size: 14px;
     font-weight: 400;
     line-height: 1.3;
@@ -1115,8 +1119,8 @@ table {
   }
 
   .dropdown-content a {
-    color: #fff;
-    font-family: Gilroy;
+    color: var(--white);
+    font-family: var(--primari-font);
     font-size: 18px;
     font-weight: 400;
     line-height: 1.3;
@@ -1137,9 +1141,9 @@ table {
   }
 
   .application-name {
-    color: var(--white, #fff);
+    color: var(--white);
     text-align: center;
-    font-family: Gilroy;
+    font-family: var(--primari-font);
     font-size: 12px;
     font-weight: 400;
     line-height: 1.3;
@@ -1147,6 +1151,7 @@ table {
     margin-bottom: 28px;
   }
   .applecation-btn {
+    cursor: pointer;
     border-radius: 8px;
     background: var(
       --gradient,
@@ -1168,16 +1173,16 @@ table {
     margin-bottom: 12px;
   }
   .applecation-btn-text {
-    color: var(--white, #fff);
-    font-family: Gilroy;
+    color: var(--white);
+    font-family: var(--primari-font);
     font-size: 16px;
     font-weight: 500;
     line-height: normal;
   }
   .applecation-confidentiality {
-    color: var(--white, #fff);
+    color: var(--white);
     text-align: center;
-    font-family: Gilroy;
+    font-family:var(--primari-font);
     font-size: 12px;
     font-weight: 400;
     line-height: 1.3;
@@ -1187,6 +1192,7 @@ table {
   }
   .applecation-confidentiality span {
     text-decoration: underline;
+    cursor: pointer;
   }
   .applecation-confidentiality span:hover,.applecation-confidentiality span:focus{
     color: var(--pink, #E1016E);
@@ -1210,18 +1216,18 @@ table {
     margin-bottom: 30px;
   }
   .contact-title {
-  color: var(--white, #FFF);
+  color: var(--white,);
 text-align: left;
-font-family: Dela Gothic One;
+font-family: var(--secondary-font);
 font-size: 18px;
 font-weight: 400;
 line-height: 1.3; 
 margin-bottom: 10px;
   }
   .contact-text {
-    color: var(--white, #FFF);
+    color: var(--white);
 text-align: left;
-font-family: Gilroy;
+font-family: var(--primari-font);
 font-size: 14px;
 font-weight: 400;
 line-height: 1.3; 
@@ -1231,8 +1237,8 @@ line-height: 1.3;
     margin-bottom: 30px;
   }
   .contact-inn {
-    color: #FFF;
-font-family: Gilroy;
+    color: var(--white);
+font-family:var(--primari-font);
 font-size: 14px;
 font-weight: 400;
 line-height: 1.3; 
@@ -1246,3 +1252,6 @@ line-height: 1.3;
     gap: 12px;
   }
 }
+
+
+
