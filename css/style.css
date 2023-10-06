@@ -407,6 +407,9 @@ table {
   .accordeon-wrapper {
     padding: 50px 0 50px 0;
   }
+  .accordeon-desctop{
+    display: none;
+  }
 
   .accordeon-title-h {
     color: var(--dark-purple);
@@ -553,7 +556,9 @@ table {
   .accordeon-collapse.open svg {
     transform: rotate(180deg);
   }
-
+.modyle-one-svg{
+  display: none;
+}
   .accordeon-collapse-text {
     color: var(--light-purple, #a58fbc);
     font-family: var(--primari-font);
