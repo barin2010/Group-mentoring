@@ -101,7 +101,7 @@ table {
     margin: 0 auto;
   }
   .header-background {
-    background: var(--dark, #21093a);
+    background: #21093a;
     /* margin: 0 auto; */
   }
   .header {
@@ -190,6 +190,9 @@ table {
 
   .mentor-item {
   }
+  .mentor-name-box-btn{
+    display: none;
+  }
 
   .mentor-item-start {
     font-size: 12px;
@@ -226,6 +229,9 @@ table {
       #4c217a 100%
     );
   }
+  .m-program-btn{
+    display: none;
+  }
   /* =========newcomers============ */
   .newcomers {
     background: var(--white);
@@ -238,7 +244,7 @@ table {
   }
 
   .newcomers-title {
-    color: var(--dark-purple);
+    color: var(--dark-purple, #4C217A);
     font-family: var(--secondary-font);
     font-size: 20px;
     font-weight: 400;

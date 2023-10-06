@@ -12,7 +12,7 @@
     />
 
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/desctop.css"/>
+    <link rel="stylesheet" href="./css/desctop.css" />
     <title>Групповое наставничество по продажам на WB</title>
   </head>
   <body>
@@ -161,11 +161,18 @@
             </li>
 
             <li class="mentor-item">
-              <p class="mentor-item-start">Лично отбираю участников</p>
+              <p class="mentor-item-start rotate">Лично отбираю участников</p>
               <p class="mentor-item-date">15 мест</p>
             </li>
           </ul>
-          <a class="mentor-btn" href="">Принять участие</a>
+          <div class="mentor-name-box-btn">
+            <p class="mentor-text-btn">наставник по маркетплейсам</p>
+            <p class="mentor-name-btn">Сергей Поталинский</p>
+          </div>
+          <div class="mentor-program-btn">
+            <a class="mentor-btn" href="">Принять участие</a>
+            <a class="m-program-btn" href="">Программа</a>
+          </div>
         </section>
       </div>
       <!-- ==========newcomers =========== -->
@@ -213,7 +220,7 @@
               и хотят вырасти до 1 000 000 руб/мес
             </p>
           </li>
-          <li class="newcomers-item">
+          <li class="newcomers-item min">
             <div class="newcomers-box">
               <svg
                 class="newcomers-svg"
@@ -254,7 +261,7 @@
               тыс. руб.
             </p>
           </li>
-          <li class="newcomers-item">
+          <li class="newcomers-item min">
             <div class="newcomers-box">
               <svg
                 class="newcomers-svg"
@@ -340,10 +347,7 @@
       <!-- ============education========== -->
       <section class="education">
         <div class="education-box">
-          <h2 class="education-title">
-            как проходит<br />
-            обучение
-          </h2>
+          <h2 class="education-title">как проходит обучение</h2>
           <ul class="education-list">
             <li class="education-item">
               <h3 class="education-subtitle">8 созвонов</h3>
@@ -397,8 +401,7 @@
               </div>
               <div class="accordeon-box-two">
                 <h3 class="accordeon-subtitle">
-                  Тестирование спроса<br />
-                  и поиск точек роста
+                  Тестирование спроса и поиск точек роста
                 </h3>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -435,85 +438,87 @@
             </div>
             <div class="accordion-text accordion-text.open">
               <h3 class="accordeon-subtitle-two">Темы</h3>
-              <ul class="accordeon-list">
-                <li class="accordeon-item">
-                  <div id="square"></div>
-                  Определение ниши и объёма рынка
-                </li>
-                <li class="accordeon-item">
-                  <div id="square"></div>
-                  Выявление ограничивающих причин роста
-                </li>
-                <li class="accordeon-item">
-                  <div id="square"></div>
-                  Упаковка карточки товара, внедрение инструментов для повышения
-                  конверсии
-                </li>
-              </ul>
-              <div class="accordeon-result">
-                <h3 class="accordeon-result-title">Результат</h3>
-                <ul class="accordeon-result-list">
-                  <li class="accordeon-result-item">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 16 16"
-                      fill="none"
-                    >
-                      <path
-                        d="M2.6665 7.22807L5.09342 10.3277C5.4938 10.8391 6.26778 10.8391 6.66816 10.3277L12.6665 2.66667"
-                        stroke="white"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                      />
-                    </svg>
-                    <p class="accordeon-result-text">
-                      Определите узкие горлышки, из-за которых не получается
-                      масштабироваться
-                    </p>
+              <div class="accordeon-result-result">
+                <ul class="accordeon-list">
+                  <li class="accordeon-item">
+                    <div id="square"></div>
+                    Определение ниши и объёма рынка
                   </li>
-                  <li class="accordeon-result-item">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 16 16"
-                      fill="none"
-                    >
-                      <path
-                        d="M2.6665 7.22807L5.09342 10.3277C5.4938 10.8391 6.26778 10.8391 6.66816 10.3277L12.6665 2.66667"
-                        stroke="white"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                      />
-                    </svg>
-                    <p class="accordeon-result-text">
-                      Найдёте товары и ниши, которые генерят от 30 000 руб/день,
-                      протестируете и подтвердите гипотезы
-                    </p>
+                  <li class="accordeon-item">
+                    <div id="square"></div>
+                    Выявление ограничивающих причин роста
                   </li>
-                  <li class="accordeon-result-item">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 16 16"
-                      fill="none"
-                    >
-                      <path
-                        d="M2.6665 7.22807L5.09342 10.3277C5.4938 10.8391 6.26778 10.8391 6.66816 10.3277L12.6665 2.66667"
-                        stroke="white"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                      />
-                    </svg>
-                    <p class="accordeon-result-text">
-                      Усилите действующие товары и увеличите текущие продажи
-                      от 20%
-                    </p>
+                  <li class="accordeon-item">
+                    <div id="square"></div>
+                    Упаковка карточки товара, внедрение инструментов
+                    для повышения конверсии
                   </li>
                 </ul>
+                <div class="accordeon-result">
+                  <h3 class="accordeon-result-title">Результат</h3>
+                  <ul class="accordeon-result-list">
+                    <li class="accordeon-result-item">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                      >
+                        <path
+                          d="M2.6665 7.22807L5.09342 10.3277C5.4938 10.8391 6.26778 10.8391 6.66816 10.3277L12.6665 2.66667"
+                          stroke="white"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                        />
+                      </svg>
+                      <p class="accordeon-result-text">
+                        Определите узкие горлышки, из-за которых не получается
+                        масштабироваться
+                      </p>
+                    </li>
+                    <li class="accordeon-result-item">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                      >
+                        <path
+                          d="M2.6665 7.22807L5.09342 10.3277C5.4938 10.8391 6.26778 10.8391 6.66816 10.3277L12.6665 2.66667"
+                          stroke="white"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                        />
+                      </svg>
+                      <p class="accordeon-result-text">
+                        Найдёте товары и ниши, которые генерят
+                        от 30 000 руб/день, протестируете и подтвердите гипотезы
+                      </p>
+                    </li>
+                    <li class="accordeon-result-item">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                      >
+                        <path
+                          d="M2.6665 7.22807L5.09342 10.3277C5.4938 10.8391 6.26778 10.8391 6.66816 10.3277L12.6665 2.66667"
+                          stroke="white"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                        />
+                      </svg>
+                      <p class="accordeon-result-text">
+                        Усилите действующие товары и увеличите текущие продажи
+                        от 20%
+                      </p>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
             <div class="accordeon-collapse accordeon-collapse.open">
@@ -577,6 +582,7 @@
             </div>
             <div class="accordion-text accordion-text.open">
               <h3 class="accordeon-subtitle-two">Темы</h3>
+              <div class="accordeon-result-result">
               <ul class="accordeon-list">
                 <li class="accordeon-item">
                   <div id="square-purpur"></div>
@@ -663,6 +669,7 @@
                   </li>
                 </ul>
               </div>
+              </div>
             </div>
             <div class="accordeon-collapse accordeon-collapse.open">
               <p class="accordeon-collapse-text">Подробнее</p>
@@ -726,6 +733,7 @@
             </div>
             <div class="accordion-text accordion-text.open">
               <h3 class="accordeon-subtitle-two">Темы</h3>
+              <div class="accordeon-result-result">
               <ul class="accordeon-list">
                 <li class="accordeon-item">
                   <div id="square"></div>
@@ -806,6 +814,7 @@
                   </li>
                 </ul>
               </div>
+              </div>
             </div>
             <div class="accordeon-collapse accordeon-collapse.open">
               <p class="accordeon-collapse-text">Подробнее</p>
@@ -867,6 +876,7 @@
             </div>
             <div class="accordion-text accordion-text.open">
               <h3 class="accordeon-subtitle-two">Темы</h3>
+              <div class="accordeon-result-result">
               <ul class="accordeon-list">
                 <li class="accordeon-item">
                   <div id="square-purpur"></div>
@@ -1025,6 +1035,7 @@
                   stroke-linecap="round"
                 />
               </svg>
+            </div>
             </div>
           </div>
         </div>
@@ -1529,7 +1540,7 @@
               />
             </div>
             <div class="dropdown">
-              <button onclick="myFunction()" class="dropbtn" >
+              <button onclick="myFunction()" class="dropbtn">
                 Удобный способ связи
               </button>
               <div id="myDropdown" class="dropdown-content">
@@ -1566,11 +1577,11 @@
       <section class="contact">
         <div class="contact-wrapper">
           <div class="contact-name">
-          <h3 class="contact-title">Сергей Поталинский</h3>
-          <p class="contact-text">наставник по маркетплейсам</p>
+            <h3 class="contact-title">Сергей Поталинский</h3>
+            <p class="contact-text">наставник по маркетплейсам</p>
           </div>
           <div class="contact-requisites">
-            <h3  class="contact-title">Реквизиты</h3>
+            <h3 class="contact-title">Реквизиты</h3>
             <p class="contact-inn">ИП Поталинский С.Н.</p>
             <p class="contact-inn">ИНН 780632121730</p>
             <p class="contact-inn">ОГРН 321784700015882</p>
@@ -1579,7 +1590,6 @@
             <p class="contact-text">Публичная оферта</p>
             <p class="contact-text">Политика конфиденциальности</p>
           </div>
-
         </div>
       </section>
       <script src="./js/accordeon.js"></script>
